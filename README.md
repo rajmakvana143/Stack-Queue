@@ -10,4 +10,15 @@ isEmpty: Checks whether the stack is empty.
 isFull: Checks whether the stack is full.
 top: Displays the topmost element of the stack.
 
+A queue is basically a linear data structure to store and manipulate the data elements. It follows the order of First In First Out (FIFO).
+In queues, the first element entered into the array is the first element to be removed from the array.
+
+the following operations for manipulation on the data elements:
+
+isEmpty(): To check if the queue is empty
+isFull(): To check whether the queue is full or not
+dequeue(): Removes the element from the frontal side of the queue
+enqueue(): It inserts elements to the end of the queue
+Front: Pointer element responsible for fetching the first element from the queue
+Rear: Pointer element responsible for fetching the last element from the queue
 
